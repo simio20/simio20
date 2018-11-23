@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="admin/css/materialize.min.css" media="screen,projection" />
+  <link type="text/css" rel="stylesheet" href="admin/css/main.css" />
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FEED – LOT</title>
+</head>
+
+<body id="home" class="scrollspy">
+  <div class="navbar-fixed">
+    <nav class="teal">
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="#home" class="brand-logo">Feed-Lot</a>
+          <a href="#" data-activates="mobile-nav" class="button-collapse">
+            <i class="material-icons">menu</i>
+          </a>
+          <ul class="right hide-on-med-and-down">
+            <li>
+              <a href="#home">Menu</a>
+            </li>
+            <li>
+              <a href="#popular">Etapas de Engorde</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <ul class="side-nav" id="mobile-nav">
+    <li>
+      <a href="#home">Inicio</a>
+    </li>
+    <li>
+      <a href="#popular">Etapa de Engorde</a>
+    </li>
+  </ul>
+
+  <!-- Section: Slider -->
+  <section class="slider">
+    <ul class="slides">
+      <li>
+        <img src="admin/img/1.jpg" alt="">
+        <div class="caption center-align">
+          <h2>LO QUE REALIZAMOS</h2>
+          <h5 class="light grey-text text-lighten-3 hide-on-small-only"> ENGORDE INTENSIVO DE ANIMALES EN CORRALES</h5>
+
+        </div>
+      </li>
+      <li>
+        <img src="admin/img/2.jpg" alt="">
+        <div class="caption left-align">
+          <h2>CORRALES RECEPCIÓN</h2>
+          <h5 class="light grey-text text-lighten-3 hide-on-small-only"></h5>
+        </div>
+      </li>
+      <li>
+        <img src="admin/img/3.jpg" alt="">
+        <div class="caption right-align">
+          <h2>Grupo/Individual</h2>
+          <h5 class="light grey-text text-lighten-3 hide-on-small-only">Conoce nuestra forma de trabajo</h5>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+
+  <!-- Section: Icon Boxes -->
+  <section class="section section-icons grey lighten-4 center">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m6">
+          <div class="card-panel">
+            <h4 class="teal-text">Ventaja</h4>
+            <div align="left" class="flow-text">
+            <p>*Liberar superficie</p>
+            <p>*Acortar duracion del engorde</p>
+            <p>*Lograr grado de terminacion uniforme</p>
+            <p>*Aumento comercial en algunas categorias</p>
+            <p>*Aprovechar subproductos de bajo precio</p>
+            <p>*Darle valor agregado al grano</p>
+          </div>
+          </div>
+        </div>
+        <div class="col s12 m6">
+          <div class="card-panel">
+            <h4 class="teal-text">Desventaja</h4>
+           <div align="left" class="flow-text">
+            <p>*Mayor costo de alimentacion/Kg. Ganado</p>
+            <p>*Mayor inversion</p>
+            <p>*Mayores gastos de estructura</p>
+            <p>*Mayores costos de produccion</p>
+            <p>*Mayor margen bruto/Kg. Ganado</p>
+            <p>*Mayor riesgo</p>
+            <p>*Rentabilidad inestable</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Section: Popular -->
+  <section id="popular" class="section section-popular scrollspy">
+    <div class="container">
+      <div class="row">
+        <h4 class="center">
+          <span class="teal-text">Engordamiento en</span> Corral</h4>
+        <div class="center">
+        <div class="col l6 s14 m4">
+          <div class="card">
+            <div class="card-image">
+              <img class="center" src="admin/img/WhatsApp Image 2018-11-08 at 09.31.17.jpeg" alt="">
+              <span class="card-title teal-text center">ETAPA INICIAL </span>
+            </div>
+            <div class="card-content">
+                <p>(15 – 20 DIAS)
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col l6 s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img class="center" src="admin/img/gorditas.jpeg" alt="">
+              <span class="card-title teal-text">ETAPA DE TERMINACIÓN</span>
+            </div>
+            <div class="card-content">
+              <p>( 70 – 100 DIAS)
+              </p>
+            </div>
+          </div>
+        </div>
+
+    </div>
+  </section>
+
+  <!-- Section: Follow -->
+  <section class="section section-follow teal darken-2 white-text center">
+    <div class="container">
+      <div class="row">
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Section: Gallery -->
+
+  <!-- Section: Contact -->
+  <!-- Footer -->
+  <footer class="section teal darken-2 white-text center">
+    <p class="flow-text">Mesa 4 &copy; 2018</p>
+  </footer>
+
+
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="admin/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      // Init Side nav
+      $('.button-collapse').sideNav();
+
+      // Init Slider
+      $('.slider').slider({
+        indicators: false,
+        height: 500,
+        transition: 500,
+        interval: 6000
+      });
+
+
+      // Init Scrollspy
+      $('.scrollspy').scrollSpy();
+
+    });
+  </script>
+</body>
+
+</html>
